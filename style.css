@@ -22,7 +22,8 @@ body{
     border: 1px solid #153416;
     border-radius: 30px;
     margin: 60px auto 80px auto;
-    padding: 2px;
+    justify-content: center;
+    padding: 0 2px;
     display: flex;
     align-items: center;
 }
@@ -91,7 +92,6 @@ body{
     cursor: pointer;
     color: #153416;
     font-size: 12px;
-    text-decoration: none;
 }
 .entry{
     display: flex;
@@ -110,8 +110,9 @@ body{
     width: 340px;
     display: flex;
     margin: 30px auto 40px auto;
-    flex-direction: row;
+    justify-content: center;
     font-size: 12px;
+    column-gap: 17px;
     line-height: 14px;
     padding: 2px auto;
 }
@@ -125,7 +126,6 @@ body{
     text-align: center;
 }
 .Reg{
-    margin: 0 auto;
     color: white;
     font-weight: 400;
     font-size: 12px;
@@ -133,4 +133,20 @@ body{
     text-align: center;
     display: flex;
     justify-content: center;
+}
+.exit{
+    cursor: pointer;
+    text-align: center;
+}
+.exitA{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 14px;
+    color: #153416;;
+}
+.imgs{
+    justify-content: center;
+    column-gap: 13px;
+    display: flex;
+    margin: 17px 0;
 }
